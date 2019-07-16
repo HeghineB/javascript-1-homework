@@ -47,3 +47,49 @@ titleCaseOver = 9000;`
 `a += 12;`
 `b += 9 ;`
 `c += 7;`
+## Compound Assignment With Augmented Multiplication
+`a *= 5;
+b *= 3;
+c *= 10;`
+## Compound Assignment With Augmented Division
+`a /= 12;
+b /= 4;
+c /= 11;`
+## Declare String Variables
+`var myFirstName = "Heghine"
+var myLastName = "Babayan"`
+## Escaping Literal Quotes in Strings
+`var myStr = "I am a \"double quoted\" string inside \"double quotes\".";`
+## Quoting Strings with Single Quotes
+`var myStr = '<a href="http://www.example.com" target="_blank">Link</a>';`
+##  Escape Sequences in Strings
+`var myStr = "FirstLine\n\t\SecondLine\nThirdLine"`
+## Concatenating Strings with Plus Operator
+`var myStr = "This is the start. "  + "This is the end." ;`
+## Concatenating Strings with the Plus Equals Operator
+`var myStr = "This is the first sentence. ";
+myStr+= "This is the second sentence."`
+## Constructing Strings with Variables
+`var myName = "Heghine";
+var myStr ="My name is " + myName + " and I am well!" ;`
+## Appending Variables to Strings
+`var someAdjective = "beautiful!";
+var myStr = "Learning to code is ";
+myStr += someAdjective;`
+## Find the Length of a String
+`lastNameLength = lastName;
+lastNameLength = lastName.length`
+## Use Bracket Notation to Find the First Character in a String
+`firstLetterOfLastName = lastName[0];`
+## Understand String Immutability
+`myStr = "Hello World"; `
+## Use Bracket Notation to Find the Nth Character in a String
+`var thirdLetterOfLastName = lastName[2];`
+## Use Bracket Notation to Find the Last Character in a String
+var lastLetterOfLastName = lastName[lastName.lenght - 1];
+## Use Bracket Notation to Find the Last Character in a String
+` firstName[firstName.length - 1]`
+## Use Bracket Notation to Find the Nth-to-Last Character in a String
+`var secondToLastLetterOfLastName = lastName[lastName.length - 2];`
+## Word Blanks
+
